@@ -19,7 +19,7 @@ s16  REAR;
 
 
 
-/*Global Functions Prototype*/
+/*Global Functions Implementation*/
 /**************************************************************************/
 /*Function:      Initialization of FRONT and REAR Index
 * Parameters:   -u16[Arr_Size]: the size of the allocated array for queue
