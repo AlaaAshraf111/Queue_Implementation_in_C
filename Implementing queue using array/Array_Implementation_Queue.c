@@ -143,7 +143,7 @@ s16 PEEK_From_Queue(u16 Arr_Size){
 
 /**************************************************************************/
 /*Function:      Displaying the value of first input data which is returned from DeQueue or PEEK function
-* Parameters:   -s16[last_data]: returned data from DeQueue or PEEK function
+* Parameters:   -s16[first_data]: returned data from DeQueue or PEEK function
 * Return:        void*/
 void Displaying_Front_Value(s16 first_data){
     
