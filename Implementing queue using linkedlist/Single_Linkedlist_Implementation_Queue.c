@@ -91,10 +91,14 @@ s16 DeQueue(){
     EMPTY Check= IS_EMPTY_Queue();
     s16 Data;
     if(Check == NOT_EMPTY){
+        //Initialize temp node points to FRONT
+        Node_t* temp= FRONT;
         //Retrieve the Data of first input element at FRONT index 
         Data = FRONT->info ;
         //update FRONT pointer for deleting the data
         FRONT = FRONT->link;  //as FRONT losts the index of this data so it doesn't aviable (as Deletion) 
+        //Delete temp node
+        free(temp);
     }else{
 
         Data = UNDERFLOW_VALUE ;
